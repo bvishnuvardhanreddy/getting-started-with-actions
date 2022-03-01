@@ -41,7 +41,7 @@ jobs:
           echo Present .git ?
           ls .git/
           echo Present .github ?
-          ls .github/
+          ls .git/branches
           echo Present .github ?
           ls .github/
           echo IS CURL installed?
