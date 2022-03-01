@@ -40,3 +40,5 @@ jobs:
           pwd
           ls .git/
           ls .github/
+          echo IS CURL installed?
+          curl
