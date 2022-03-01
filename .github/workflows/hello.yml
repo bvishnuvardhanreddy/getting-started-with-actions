@@ -38,3 +38,5 @@ jobs:
           ls -la
           echo Present path ?
           pwd
+          ls .git/
+          ls .github/
