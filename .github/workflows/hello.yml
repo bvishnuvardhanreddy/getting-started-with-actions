@@ -44,5 +44,7 @@ jobs:
           ls .git/branches
           echo Present ls .github/ ?
           ls .github/
+          echo Present ls .github/workflows ?
+          ls .github/workflows/
           echo IS CURL installed?
           curl --help
