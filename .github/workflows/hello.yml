@@ -46,13 +46,13 @@ jobs:
           ls .github/
           echo Present ls .github/workflows ?
           ls .github/workflows/
-          cd .github/workflows/
-          pwd
           export OICURL="https://oic99411728-ocuocictrng30-ld.integration.ocp.oraclecloud.com:443"
           export OICUser="99411728-ora006"
           export OICPassword="Welcome@123"
-          export OICProject="ForLoopDemo01.00.0000"
+          export OICProject="ForLoopDemo|01.00.0000"
           export URL=$OICURL/ic/api/integration/v1/integrations/$OICProject/archive
           echo $URL
           echo $OICUser
           echo $OICPassword
+          curl -k -v -X GET -u $OICUser:$OICPassword -s $URL -o .github/workflows/ForLoopDemo_01.00.0000.iar
+          ls .github/workflows/
