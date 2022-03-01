@@ -46,5 +46,7 @@ jobs:
           ls .github/
           echo Present ls .github/workflows ?
           ls .github/workflows/
+          cd .github/workflows/
+          pwd
           echo IS CURL installed?
           curl --help
