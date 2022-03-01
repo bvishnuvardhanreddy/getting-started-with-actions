@@ -38,11 +38,11 @@ jobs:
           ls -la
           echo Present path ?
           pwd
-          echo Present .git ?
+          echo Present ls .git ?
           ls .git/
-          echo Present .github ?
+          echo Present ls .git/branches ?
           ls .git/branches
-          echo Present .github ?
+          echo Present ls .github/ ?
           ls .github/
           echo IS CURL installed?
           curl --help
