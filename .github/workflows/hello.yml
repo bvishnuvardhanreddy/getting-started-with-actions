@@ -34,5 +34,7 @@ jobs:
         run: |
           echo IS java installed ?
           java -version
+          echo List all files ?
           ls -la
+          echo Present path ?
           pwd
